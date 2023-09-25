@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    color: rgb(35, 149, 111);
+    background-color: rgba(245, 213, 218, 0.883);
+    width: 100vw;
+    height:100vh;
+    margin: auto;
+    position: relative;
+    background-image: url(./images/gallows-2631544_1920.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    height: 30vw; 
+    padding: 60px; 
+    font-size: 170%;  
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#alpha {
+    display: flex;
+    justify-content: center;
+}
+
+.alphab {
+    padding: 10px;
+}
+
+#bouton {
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+}
+
+#compteur {
+    font-size: 150%;
+    color: brown;
+}
+
+.tiret {
+    font-size: 160%;
+    font-weight: 600;
+    color: rgb(32, 139, 124);
+}
+
+#rejouer { 
+    display: flex; 
+    justify-content: center; 
+}
+
+input[type="submit"] {
+    background-color: rgb(32, 139, 124);
+    width: 110px;
+    height: 30px;
+    border-radius: 45%;
+} 
+
